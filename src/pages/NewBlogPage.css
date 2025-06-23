@@ -1,0 +1,48 @@
+.new-blog-container {
+  
+margin: 0;
+  padding-top: 50px;
+  min-height: 100vh;
+  background: url('/images/BlogDetailPage.jpg') center/cover no-repeat;
+  font-family: Arial, sans-serif;
+}
+#new-blog-form {
+  background: rgba(255,255,255,0.85);
+  max-width: 700px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+#new-blog-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#new-blog-form label {
+  margin: 15px 0 5px;
+  display: block;
+}
+#new-blog-form input,
+#new-blog-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+#new-blog-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#new-blog-form button:hover {
+  background: #45a049;
+}
