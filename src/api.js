@@ -10,7 +10,7 @@ const API = axios.create({
 API.interceptors.request.use((req) => {
   const token = localStorage.getItem('token');
   if (token) {
-=======
+
   baseURL: 'http://localhost:5000',   // ← No '/api'—your routes live at /auth and /blogs
 });
 
@@ -19,7 +19,7 @@ API.interceptors.request.use((req) => {
   const token = localStorage.getItem('token');
   if (token) {
     // Make sure your backend expects 'Authorization' header as 'Bearer <token>'
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
     req.headers.Authorization = `Bearer ${token}`;
   }
   return req;
