@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-<<<<<<< HEAD
+
   baseURL: "https://tech-blog-backend-3.onrender.com", // Backend base URL
 });
 
