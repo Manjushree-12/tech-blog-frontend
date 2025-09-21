@@ -1,0 +1,256 @@
+/* General */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+/* Hero */
+.hero {
+    background-color: #222;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tab-btn {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.tab-btn.active {
+    background: #ff4a57;
+}
+
+.tab-btn:hover {
+    background: #ff4a57;
+}
+
+/* Tab Content */
+.tab-content {
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Posts */
+.blog-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.blog-card {
+    background: #ffffff;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.blog-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.blog-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.blog-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.actions {
+    margin-top: 15px;
+}
+
+.like-btn, .comment-btn {
+    padding: 10px 18px;
+    margin-right: 10px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.like-btn:hover, .comment-btn:hover {
+    background-color: #005f6b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+}
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-body {
+  margin-top: 20px;
+}
+
+.close-btn {
+  background-color: #ff4a57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.close-btn:hover {
+  background-color: #d13a48;
+}
+/* Home Main Section */
+.section-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ff4a57;
+  }
+  
+  /* Blog Posts Container */
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Individual Blog Card */
+  .blog-card {
+    background: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  /* Blog Card Content */
+  .blog-title {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #222;
+  }
+  
+  .blog-author {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .blog-desc {
+    font-size: 0.95rem;
+    color: #666;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  

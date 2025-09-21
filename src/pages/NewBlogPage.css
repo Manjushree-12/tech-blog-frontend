@@ -1,0 +1,58 @@
+/* src/pages/NewBlogPage.css */
+.new-blog-container {
+  font-family: Arial, sans-serif;
+  margin: 0;               /* remove external margins so bg covers edge-to-edge */
+  padding-top: 50px;
+  min-height: 100vh;
+  background-image: url('/images/newblogimag.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#new-blog-form {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+#new-blog-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#new-blog-form label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+#new-blog-form input,
+#new-blog-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#new-blog-form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+#new-blog-form button:hover {
+  background-color: #45a049;
+}
