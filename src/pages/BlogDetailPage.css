@@ -1,0 +1,138 @@
+/* ===== Main Content Container ===== */
+.mt-4 {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: #2d3748; /* Soft dark gray for better readability */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: rgba(255,255,255,0.7);
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+/* ===== General Image Styling ===== */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 2rem auto;
+}
+
+/* Hover Effect (Subtle Zoom + Shadow) */
+img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Floating Images ===== */
+.img-float-right {
+  float: right;
+  margin: 0 0 1.5rem 2rem;
+  width: 45%;
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.img-float-left {
+  float: left;
+  margin: 0 2rem 1.5rem 0;
+  width: 45%;
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+/* ===== Background Image (Watermark Effect) ===== */
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.06;
+  filter: grayscale(100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ===== Image with Caption ===== */
+.figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.figure img {
+  margin-bottom: 0.5rem;
+}
+
+.figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* ===== Full-Width Image (Bleed Effect) ===== */
+.img-full {
+  width: calc(100% + 4rem); /* Extends beyond container */
+  margin-left: -2rem;
+  border-radius: 0;
+  max-width: none;
+}
+
+/* ===== Circular Images (For Avatars/Logos) ===== */
+.img-circle {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Clear Floats ===== */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  .mt-4 {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .img-float-right,
+  .img-float-left {
+    float: none;
+    width: 80%;
+    margin: 1.5rem auto;
+  }
+  
+  .img-full {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.p-6 {
+  margin: 0;
+  padding-top: 50px;
+  min-height: 100vh;
+  background-image: url('/images/Blogpage.jpeg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+
+}

@@ -5,8 +5,13 @@ import BlogDetailPage from './pages/BlogDetailPage';
 import NewBlogPage from './pages/NewBlogPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
+<<<<<<< HEAD
 import Dashboard from './pages/UserPage';
 import Navbar from './Components/Navbar';
+=======
+import Dashboard from './pages/Dashboard';
+import Navbar from './components/Navbar';
+>>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
 
 
 const App = () => {
