@@ -5,8 +5,6 @@ import BlogDetailPage from './pages/BlogDetailPage';
 import NewBlogPage from './pages/NewBlogPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-
-import Dashboard from './pages/UserPage';
 import Navbar from './components/Navbar';
 
 import Dashboard from './pages/Dashboard';
