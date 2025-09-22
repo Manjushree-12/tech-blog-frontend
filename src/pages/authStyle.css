@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Common Style for Login and Register Pages */
 body {
     background-color: #f0f2f5;
@@ -93,7 +93,7 @@ body {
     text-decoration: underline;
   }
   
-=======
+
 /* Common Reset */
 * {
   box-sizing: border-box;
@@ -187,4 +187,3 @@ body {
 .register-link a:hover {
   text-decoration: underline;
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
