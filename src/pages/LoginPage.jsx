@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import API from '../api';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom'; // Import Link
 import './authStyle.css'; 
 
 export default function LoginPage() {
@@ -59,9 +59,10 @@ export default function LoginPage() {
         <button type="submit" className="login-btn">Login</button>
 
         <p className="register-link">
-          Don&apos;t have an account? <a href="/register">Register here</a>
+          Don&apos;t have an account? <Link to="/register">Register here</Link>
         </p>
       </form>
     </div>
   );
 }
+
