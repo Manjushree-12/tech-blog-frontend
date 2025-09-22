@@ -1,6 +1,6 @@
 // src/pages/RegisterPage.jsx
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom'; // <-- Import Link
 import API from '../api';
 import './authStyle.css';
 
@@ -63,10 +63,11 @@ export default function RegisterPage() {
         </div>
         <button type="submit" className="login-btn">Register</button>
         <p className="register-link">
-          Already have an account? <a href="/login">Login here</a>
+          Already have an account? <Link to="/login">Login here</Link> {/* <-- Fixed */}
         </p>
       </form>
     </div>
   );
 }
+
 
