@@ -1,18 +1,4 @@
 
-import React from 'react';
-import { useNavigate, useLocation } from 'react-router-dom'; // Import navigate and location
-import './homeStyle.css'; // Your common css
-
-const HomePage = () => {
-  const navigate = useNavigate();
-  const location = useLocation(); // To check current path
-
-  // Function to check active tab
-  const isActive = (path) => location.pathname === path;
-
-  return (
-    <div className="home-container">
-      {/* Hero Section */}
 
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
