@@ -7,7 +7,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 
 import Dashboard from './pages/UserPage';
-import Navbar from './Components/Navbar';
+import Navbar from './components/Navbar';
 
 import Dashboard from './pages/Dashboard';
 
