@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom'; // Import navigate and location
 import './homeStyle.css'; // Your common css
@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <div className="home-container">
       {/* Hero Section */}
-=======
+
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import API from '../api'
@@ -33,12 +33,11 @@ export default function HomePage() {
 
   return (
     <div className="home-container">
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
       <header className="hero">
         <h1>Welcome to Tech Trends & Innovations</h1>
         <p>Stay ahead with the latest technologies and updates!</p>
       </header>
-<<<<<<< HEAD
+
 
       {/* Navigation Buttons */}
       <div className="tabs">
@@ -78,7 +77,7 @@ export default function HomePage() {
 };
 
 export default HomePage;
-=======
+
       <div className="tabs">
         <button className={`tab-btn ${isActive('/')?'active':''}`} onClick={()=>navigate('/')}>Home</button>
         <button className={`tab-btn ${isActive('/login')?'active':''}`} onClick={()=>navigate('/login')}>Login</button>
@@ -98,4 +97,4 @@ export default HomePage;
     </div>
   )
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
