@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Reset & Body */
 * {
     box-sizing: border-box;
@@ -180,7 +180,7 @@
     }
   }
   
-=======
+
 /* Layout Reset */
 * {
   box-sizing: border-box;
@@ -466,4 +466,4 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   outline: none;
   box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
