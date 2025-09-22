@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // src/pages/NewBlogPage.jsx
 import React, { useState } from 'react';
 import API from '../api';
@@ -22,7 +22,7 @@ const NewBlogPage = () => {
       alert('Failed to create blog.');
     }
   };
-=======
+
 import React, { useState, useEffect } from 'react'
 import API from '../api'
 import { useNavigate } from 'react-router-dom'
@@ -51,13 +51,13 @@ export default function NewBlogPage() {
         alert('Failed to create')
       })
   }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
 
   return (
     <div className="new-blog-container">
       <form id="new-blog-form" onSubmit={handleSubmit}>
         <h2>Create New Blog Post</h2>
-<<<<<<< HEAD
+
         <br />
         <label htmlFor="title">Blog Title</label>
         <input
@@ -93,7 +93,7 @@ export default function NewBlogPage() {
 };
 
 export default NewBlogPage;
-=======
+
         <label htmlFor="title">Blog Title</label>
         <input id="title" value={title} onChange={e=>setTitle(e.target.value)} required/>
         
@@ -117,4 +117,4 @@ export default NewBlogPage;
     </div>
   )
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
