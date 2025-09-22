@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import API from '../api';
@@ -30,7 +30,6 @@ const BlogDetailPage = () => {
 };
 
 export default BlogDetailPage;
-=======
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import API from '../api'
@@ -75,4 +74,4 @@ export default function BlogDetailPage() {
     </form>
   )
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
