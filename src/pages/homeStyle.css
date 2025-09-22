@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* General */
 body {
     background-color: #f4f4f4;
@@ -27,7 +27,7 @@ h1, h2, h3 {
 .hero p {
     font-size: 18px;
     margin-top: 10px;
-=======
+
 /* General Reset */
 * {
   box-sizing: border-box;
@@ -51,12 +51,12 @@ body {
 }
 .hero p {
   font-size: 1.2rem;
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
 }
 
 /* Tabs */
 .tabs {
-<<<<<<< HEAD
+
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -281,7 +281,6 @@ body {
   }
 
   
-=======
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -352,4 +351,4 @@ body {
     flex-direction: column;
   }
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
