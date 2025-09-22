@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* src/pages/NewBlogPage.css */
 .new-blog-container {
   font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@
   border-radius: 12px;
 }
 
-=======
+
 .new-blog-container {
   
 margin: 0;
@@ -37,29 +37,28 @@ margin: 0;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
 #new-blog-form h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
 
 #new-blog-form label {
   display: block;
   margin: 15px 0 5px;
 }
 
-=======
+
 #new-blog-form label {
   margin: 15px 0 5px;
   display: block;
 }
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
 #new-blog-form input,
 #new-blog-form textarea {
   width: 100%;
   padding: 10px;
-<<<<<<< HEAD
+
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -69,7 +68,7 @@ margin: 0;
 #new-blog-form button {
   width: 100%;
   margin-top: 20px;
-=======
+
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -77,12 +76,11 @@ margin: 0;
 }
 #new-blog-form button {
   width: 100%;
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
   padding: 12px;
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
-<<<<<<< HEAD
+
   background-color: #4caf50;
   border: none;
   border-radius: 5px;
@@ -92,7 +90,6 @@ margin: 0;
 
 #new-blog-form button:hover {
   background-color: #45a049;
-=======
   background: #4caf50;
   border: none;
   border-radius: 5px;
@@ -101,5 +98,5 @@ margin: 0;
 }
 #new-blog-form button:hover {
   background: #45a049;
->>>>>>> 8b03500e21b4face8f18fbc2de90e06688191292
+
 }
